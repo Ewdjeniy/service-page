@@ -1,0 +1,85 @@
+/*@font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url("./fa-solid-900.eot");
+    src: url("./fa-solid-900.eot?#iefix") format("embedded-opentype"), url("./fa-solid-900.woff2") format("woff2"), url("./fa-solid-900.woff") format("woff"), url("./fa-solid-900.ttf") format("truetype"), url("./fa-solid-900.svg#fontawesome") format("svg");
+}*/
+
+@font-face {
+    font-family: Helvetica LT Std;
+    font-style: normal;
+    font-weight: 400;
+    src: local(HelveticaLTStd-Roman), local(HelveticaLTStd-Roman), url('./HelveticaLTStd-Roman.woff') format("woff")
+}
+
+@font-face {
+    font-family: Helvetica LT Std;
+    font-style: normal;
+    font-weight: 700;
+    src: local(HelveticaLTStd-Bold), local(HelveticaLTStd-Bold), url('./HelveticaLTStd-Bold.woff') format("woff")
+}
+
+@font-face {
+    font-family: Helvetica LT Std;
+    font-style: italic;
+    font-weight: 700;
+    src: local(HelveticaLTStd-BoldObl), local(HelveticaLTStd-BoldObl), url('/HelveticaLTStd-BoldObl.woff') format("woff")
+}
+
+@font-face {
+    font-family: NEOTERIC;
+    font-style: normal;
+    font-weight: 400;
+    src: local(NEOTERIC), local(NEOTERIC), url('/NEOTERICc-RegularDEMOVERSION.woff') format("woff")
+}
+
+@font-face {
+    font-family: NEOTERIC;
+    font-style: normal;
+    font-weight: 700;
+    src: local("NEOTERIC Bold"), local(NEOTERIC-Bold), url('/NEOTERIC-BoldDEMOVERSION.woff') format("woff")
+}
+
+@font-face {
+    font-family: Myriad Pro;
+    font-style: normal;
+    font-weight: 400;
+    src: local(MyriadPro-Regular), local(MyriadPro-Regular), url('/MyriadProRegular.woff') format("woff")
+}
+
+@font-face {
+    font-family: Myriad Pro;
+    font-style: normal;
+    font-weight: 700;
+    src: local(MyriadPro-Bold), local(MyriadPro-Bold), url('/MyriadProBold.woff') format("woff")
+}
+
+@font-face {
+    font-family: Myriad Pro;
+    font-style: italic;
+    font-weight: 700;
+    src: local(MyriadPro-BoldIt), local(MyriadPro-BoldIt), url('/MyriadProBoldItalic.woff') format("woff")
+}
+
+@font-face {
+    font-family: Sansation;
+    font-style: normal;
+    font-weight: 400;
+    src: local("Sansation Regular"), local(SansationRegular), url('/Sansation_Regular.woff') format("woff")
+}
+
+@font-face {
+    font-family: Sansation;
+    font-style: normal;
+    font-weight: 700;
+    src: local("Sansation Bold"), local(SansationBold), url('/Sansation_Bold.woff') format("woff")
+}
+
+@font-face {
+    font-family: Sansation;
+    font-style: italic;
+    font-weight: 700;
+    src: local("Sansation Bold Italic"), local(SansationBoldItalic), url('/Sansation_Bold_Italic.woff') format("woff")
+}
