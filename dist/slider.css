@@ -17,80 +17,80 @@
 }*/
 
 @font-face {
-    font-family: Helvetica LT Std;
+    font-family: Helvetica;
     font-style: normal;
     font-weight: 400;
-    src: local(HelveticaLTStd-Roman), local(HelveticaLTStd-Roman), url(fonts/HelveticaLTStd-Roman.woff) format("woff")
+    src: url(fonts/HelveticaLTStd-Roman.woff) format("woff")
 }
 
 @font-face {
-    font-family: Helvetica LT Std;
+    font-family: Helvetica;
     font-style: normal;
     font-weight: 700;
-    src: local(HelveticaLTStd-Bold), local(HelveticaLTStd-Bold), url(fonts/HelveticaLTStd-Bold.woff) format("woff")
+    src: url(fonts/HelveticaLTStd-Bold.woff) format("woff")
 }
 
 @font-face {
-    font-family: Helvetica LT Std;
+    font-family: Helvetica;
     font-style: italic;
     font-weight: 700;
-    src: local(HelveticaLTStd-BoldObl), local(HelveticaLTStd-BoldObl), url('/HelveticaLTStd-BoldObl.woff') format("woff")
+    src: url(fonts/HelveticaLTStd-BoldObl.woff) format("woff")
 }
 
 @font-face {
     font-family: NEOTERIC;
     font-style: normal;
     font-weight: 400;
-    src: local(NEOTERIC), local(NEOTERIC), url('/NEOTERICc-RegularDEMOVERSION.woff') format("woff")
+    src: url(fonts/NEOTERICc-RegularDEMOVERSION.woff) format("woff")
 }
 
 @font-face {
     font-family: NEOTERIC;
     font-style: normal;
     font-weight: 700;
-    src: local("NEOTERIC Bold"), local(NEOTERIC-Bold), url('/NEOTERIC-BoldDEMOVERSION.woff') format("woff")
+    src: url(fonts/NEOTERIC-BoldDEMOVERSION.woff) format("woff")
 }
 
 @font-face {
     font-family: Myriad Pro;
     font-style: normal;
     font-weight: 400;
-    src: local(MyriadPro-Regular), local(MyriadPro-Regular), url('/MyriadProRegular.woff') format("woff")
+    src: url(fonts/MyriadProRegular.woff) format("woff")
 }
 
 @font-face {
     font-family: Myriad Pro;
     font-style: normal;
     font-weight: 700;
-    src: local(MyriadPro-Bold), local(MyriadPro-Bold), url('/MyriadProBold.woff') format("woff")
+    src: url(fonts/MyriadProBold.woff) format("woff")
 }
 
 @font-face {
     font-family: Myriad Pro;
     font-style: italic;
     font-weight: 700;
-    src: local(MyriadPro-BoldIt), local(MyriadPro-BoldIt), url('/MyriadProBoldItalic.woff') format("woff")
+    src: url(fonts/MyriadProBoldItalic.woff) format("woff")
 }
 
 @font-face {
     font-family: Sansation;
     font-style: normal;
     font-weight: 400;
-    src: local("Sansation Regular"), local(SansationRegular), url('/Sansation_Regular.woff') format("woff")
+    src: url(fonts/Sansation_Regular.woff) format("woff")
 }
 
 @font-face {
     font-family: Sansation;
     font-style: normal;
     font-weight: 700;
-    src: local("Sansation Bold"), local(SansationBold), url('/Sansation_Bold.woff') format("woff")
+    src: url(fonts/Sansation_Bold.woff) format("woff")
 }
 
 @font-face {
     font-family: Sansation;
     font-style: italic;
     font-weight: 700;
-    src: local("Sansation Bold Italic"), local(SansationBoldItalic), url('/Sansation_Bold_Italic.woff') format("woff")
+    src: url(fonts/Sansation_Bold_Italic.woff) format("woff")
 }
 
 .slider {
