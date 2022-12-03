@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './navigation.css';
 
 class Navigation extends React.Component {
   constructor(props) {

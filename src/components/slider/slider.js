@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from 'react-dom';
 import Slider from './react-animated-slider/build';
 import './react-animated-slider/build/horizontal.css';
+import './slider.css';
 
 class Slide extends React.Component {
   render() {

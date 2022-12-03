@@ -1,0 +1,305 @@
+section:nth-child(10) {
+  background-color: rgb(73, 73, 73);
+  display: flex;
+  justify-content: space-around;
+  padding: 2.2rem 0;
+
+  @media screen and (max-width: 450px) {
+    flex-wrap: wrap;
+    padding: 2rem 1.5rem;
+    font-size: 110%;
+  }
+
+  @media screen and (min-width: 451px)  and (max-width: 767px){
+    font-size: 110%;
+  }
+  
+  @media screen and (min-width: 768px)  and (max-width: 991px){
+    font-size: 110%;
+  }
+  @media screen and (min-width: 768px)  and (max-width: 991px){
+    font-size: 110%;
+  }
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    font-size: 120%;
+  }
+  
+  @media screen and (min-width: 1199px) {
+    font-size: 130%;
+  }
+}
+
+.Product {
+  font-size: 1.3em/1.8em;
+  font-family: "Helvetica LT Std";
+  color: rgb(228, 228, 228);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.line {
+  background-color: rgb(228, 228, 228);
+  width: 2.8rem;
+  height: 1px;
+}
+
+.Cost___Governance_Security___Complaince_Product {
+  display: block;
+  font-size: 0.9em/3.8em;
+  font-family: "Helvetica LT Std";
+  color: rgb(255, 255, 255);
+  text-align: left;
+  text-decoration: none;
+}
+
+.LEARN {
+  font-size: 1.3em/1.8em;
+  font-family: "Helvetica LT Std";
+  color: rgb(228, 228, 228);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.Articles_Register_a_demo_Webinars_FAQs {
+  display: block;
+  font-size: 0.9em/3.8em;
+  font-family: "Helvetica LT Std";
+  color: rgb(255, 255, 255);
+  text-align: left;
+  text-decoration: none;
+}
+
+.COMPANY {
+  font-size: 1.3em/1.8em;
+  font-family: "Helvetica LT Std";
+  color: rgb(228, 228, 228);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.625;
+  text-align: left;
+}
+
+.About_Careers_Partners_Contact {
+  display: block;
+  font-size: 0.9em/3.8em;
+  font-family: "Helvetica LT Std";
+  color: rgb(255, 255, 255);
+  text-align: left;
+  text-decoration: none;
+}
+
+.mail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  @media screen and (max-width: 450px) {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 992px) {
+    margin-left: 20%;
+  }
+
+  form {
+    dispay: flex;
+    height: 4.2rem;
+    width: 25.85rem;
+    background-color: rgb(203, 203, 203);
+    border: 0.2rem solid rgb(203, 203, 203);
+    @media screen and (max-width: 450px) {
+      margin: 2rem 0;
+    }
+  }
+}
+
+.Your_email {
+  font-size: 1em;
+  font-family: "Helvetica LT Std";
+  color: rgb(79, 78, 78);
+  background-color: rgb(203, 203, 203);
+  border: 0.1rem solid rgb(203, 203, 203);
+  width: 13.8rem;
+  height: 4rem;
+  padding-left: 1.2rem;
+}
+
+.Subscribe {
+  font-size: 1.1em;
+  font-family: "Helvetica LT Std";
+  color: rgb(255, 255, 255);
+  background-color: rgb(64, 113, 184);
+  border: 0.1rem solid rgb(203, 203, 203);
+  width: 10.6rem;
+  height: 4.2rem;
+  border-radius: 0;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fb_bg {
+  border-radius: 50%;
+  background-color: rgb(50, 50, 50);
+  width: 3.4rem;
+  height: 3.9rem;
+}
+
+.fb_bg:hover {
+  background-color: transparent;
+}
+
+.fb_icon {
+  background-image: url("images/sprite.png");
+  background-position: -5px -238px;
+  opacity: 0.702;
+  width: 11px;
+  height: 15px;
+
+  @media screen and (max-width: 767px) {
+    margin: 1rem 0 0 0.85rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin: 1.2rem 0 0 1.1rem;
+  }
+}
+
+.tw_bg {
+  border-radius: 50%;
+  background-color: rgb(50, 50, 50);
+  width: 3.4rem;
+  height: 3.9rem;
+}
+
+.tw_bg:hover {
+  background-color: transparent;
+}
+
+.tw_icon {
+  background-image: url("images/sprite.png");
+  background-position: -5px -205px;
+  opacity: 0.702;
+  width: 14px;
+  height: 13px;
+
+  @media screen and (max-width: 767px) {
+    margin: 1.1rem 0 0 0.85rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin: 1.4rem 0 0 1.1rem;
+  }
+}
+
+.g__bg {
+  border-radius: 50%;
+  background-color: rgb(50, 50, 50);
+  width: 3.4rem;
+  height: 3.9rem;
+}
+
+.g__bg:hover {
+  background-color: transparent;
+}
+
+.g__icon {
+  background-image: url("images/sprite.png");
+  background-position: -5px -43px;
+  opacity: 0.702;
+  width: 18px;
+  height: 13px;
+
+  @media screen and (max-width: 767px) {
+    margin: 1.1rem 0 0 0.7rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin: 1.35rem 0 0 1rem;
+  }
+}
+
+.ball_bg {
+  border-radius: 50%;
+  background-color: rgb(50, 50, 50);
+  width: 3.4rem;
+  height: 3.9rem;
+}
+
+.ball_bg:hover {
+  background-color: transparent;
+}
+
+.ball_icon {
+  background-image: url("images/sprite.png");
+  background-position: -5px -0px;
+  opacity: 0.702;
+  width: 19px;
+  height: 21px;
+
+  @media screen and (max-width: 767px) {
+    margin: 0.6rem 0 0 0.45rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin: 1rem 0 0 0.85rem;
+  }
+}
+
+.be_bg {
+  border-radius: 50%;
+  background-color: rgb(50, 50, 50);
+  width: 3.4rem;
+  height: 3.9rem;
+}
+
+.be_bg:hover {
+  background-color: transparent;
+}
+
+.be_icon {
+  background-image: url("images/sprite.png");
+  background-position: -5px -26px;
+  opacity: 0.702;
+  width: 19px;
+  height: 12px;
+
+  @media screen and (max-width: 767px) {
+    margin: 1.1rem 0 0 0.6rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin: 1.4rem 0 0 0.9rem;
+  }
+}
+
+.insta__bg {
+  border-radius: 50%;
+  background-color: rgb(50, 50, 50);
+  width: 3.4rem;
+  height: 3.9rem;
+}
+
+.insta__bg:hover {
+  background-color: transparent;
+}
+
+.insta__icon {
+  background-image: url("images/sprite.png");
+  background-position: -5px -61px;
+  opacity: 0.702;
+  width: 17px;
+  height: 19px;
+
+  @media screen and (max-width: 767px) {
+    margin: 0.8rem 0 0 0.6rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin: 1.1rem 0 0 1rem;
+  }
+}

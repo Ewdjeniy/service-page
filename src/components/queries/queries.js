@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './queries.css';
 
 class Query extends React.Component {
   constructor(props) {

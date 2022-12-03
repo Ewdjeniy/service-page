@@ -1,0 +1,270 @@
+section:nth-child(6) {
+  background-color: rgb(63, 63, 63);
+  display: flex;
+  padding: 2.7rem 0 3.2rem 0;
+
+  @media screen and (max-width: 991px) {
+    flex-direction: column;
+  }
+
+  @media screen and (min-width:992px) {
+    justify-content: space-around;
+  }
+}
+
+.people {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media screen and (min-width: 992px) {
+    width: 32.5%;
+  }
+}
+
+.It_was_always_a_pleasure__doing_bussiness_with_ {
+  font-size: 1.8rem/2.6rem;
+  font-family: "Sansation";
+  color: rgb(202, 199, 199);
+  text-align: center;
+  width: 85%;
+  margin-top: 3.6rem;
+}
+
+.peopleArrow {
+  display: flex;
+  margin: 3.6rem 0;
+}
+
+.left-arrow {
+  background-image: url("./images/sprite.png");
+  background-position: -5px -175px;
+  width: 17px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.right-arrow {
+  background-image: url("./images/sprite.png");
+  background-position: -5px -145px;
+  width: 17px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  margin-left: 0;
+  transition: margin-left 1s;
+
+  @media screen and (max-width: 450px) {
+    width: 300vw;
+  }
+
+  @media screen and (min-width: 450px) and (max-width: 767px) {
+    width: 150vw;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 100vw;
+  }
+
+  .model1 {
+    ._01 {
+      display: block;
+    }
+
+    .Rectangle_10 {
+      display: block;
+    }
+  }
+
+  .model2 {
+    ._01 {
+      display: none;
+    }
+
+    .Rectangle_10 {
+      display: none;
+    }
+  }
+
+  .model3 {
+    ._01 {
+      display: none;
+    }
+
+    .Rectangle_10 {
+      display: none;
+    }
+  }
+}
+
+.picturesMove1 {
+  transition: margin-left 1s;
+
+  @media screen and (max-width: 450px) {
+    margin-left: -100vw;
+  }
+
+  @media screen and (min-width: 450px) and (max-width: 767px) {
+    margin-left: 0;
+  }
+
+  .model1 {
+    ._01 {
+      display: none;
+    }
+
+    .Rectangle_10 {
+      display: none;
+    }
+  }
+
+  .model2 {
+    ._01 {
+      display: block;
+    }
+
+    .Rectangle_10 {
+      display: block;
+    }
+  }
+
+  .model3 {
+    ._01 {
+      display: none;
+    }
+
+    .Rectangle_10 {
+      display: none;
+    }
+  }
+}
+
+.picturesMove2 {
+  transition: margin-left 1s;
+
+  @media screen and (max-width: 450px) {
+    margin-left: -200vw;
+  }
+
+  @media screen and (min-width: 450px) and (max-width: 767px) {
+    margin-left: -50vw;
+  }
+
+  .model1 {
+    ._01 {
+      display: none;
+    }
+
+    .Rectangle_10 {
+      display: none;
+    }
+  }
+
+  .model2 {
+    ._01 {
+      display: none;
+    }
+
+    .Rectangle_10 {
+      display: none;
+    }
+  }
+
+  .model3 {
+    ._01 {
+      display: block;
+    }
+
+    .Rectangle_10 {
+      display: block;
+    }
+  }
+}
+
+._1_10 {
+  font-size: 1.4rem/2.6rem;
+  font-family: "Sansation";
+  color: rgb(202, 199, 199);
+  margin: 0 8rem;
+}
+
+.model1 {
+  background-image: url('./images/model1.jpg');
+  background-repeat: no-repeat;
+  background-size: 20.2rem 22.3rem;
+  width: 20.2rem;
+  height: 22.3rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.model2 {
+  background-image: url('./images/model2.jpg');
+  background-repeat: no-repeat;
+  background-size: 20.2rem 22.3rem;
+  width: 20.2rem;
+  height: 22.3rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.model3 {
+  background-image: url('./images/model3.jpg');
+  background-repeat: no-repeat;
+  background-size: 20.2rem 22.3rem;
+  width: 20.2rem;
+  height: 22.3rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+._01 {
+  display: block;
+  font-size: 1rem;
+  font-family: "Sansation";
+  color: rgb(43, 43, 43);
+  background-color: rgb(255, 255, 255);
+  width: 4.3rem;
+  height: 3.3rem;
+  text-align: center;
+  line-height: 3.3rem;
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+}
+
+.Rectangle_10 {
+  background-color: rgb(255, 255, 255);
+  width: 13.6rem;
+  height: 3.2rem;
+  margin-bottom: 0.8rem;
+  padding-left: 0.5rem;
+  font-weight: 700;
+}
+
+.Imran_Khan {
+  font-size: 1.2rem/1.8rem;
+  font-family: "Sansation";
+  color: rgb(43, 43, 43);
+}
+
+.CEO__Vesso {
+  font-size: 1rem/1.4rem;
+  font-family: "Sansation";
+  color: rgb(43, 43, 43);
+}
+
+.Shape_5 {
+  background-color: rgb(175, 172, 172);
+  width: 6.2rem;
+  height: 0.2rem;
+  align-self: center;
+  margin-top: 1.5rem;
+}

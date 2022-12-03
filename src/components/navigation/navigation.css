@@ -1,0 +1,238 @@
+.HEADER {
+  border-bottom: 1px solid #71688b;
+  display: flex;
+  align-items: center;
+  height: 6.2rem;
+
+  @media screen and (max-width: 991px) {
+    justify-content: space-between;
+    padding: 0 9vw;
+  }
+
+  @media screen and (min-width: 992px) {
+    justify-content: space-around;
+    padding: 0 5rem 0 3rem;
+  }
+}
+
+.LOGO {
+  font-size: 2.4rem;
+  font-family: "Sansation";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+
+  span {
+    color: #da2346;
+  }
+}
+
+.Home_About_Service {
+  @media screen and (max-width: 991px) {
+    position: absolute;
+    display: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 6.2rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    overflow: auto;
+  }
+
+  @media screen and (min-width: 992px) {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    margin-left: 9rem;
+  }
+}
+
+.menu__links-item {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1.35rem;
+  font-weight: 100;
+  font-family: "Sansation";
+
+  @media screen and (max-width: 991px) {
+    display: block;
+    padding: 5px 0;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 992px) {
+    order: -1;
+    flex-grow: 1;
+    margin-top: 0.5rem;
+  }
+}
+
+.menu__links-item:hover {
+  @media screen and (max-width: 991px) {
+    color: #0d7a87;
+  }
+
+  @media screen and (min-width: 992px) {
+    color: #0d7a87;
+  }
+}
+
+.menu__icon {
+  @media screen and (max-width: 991px) {
+    display: inline-block;
+    width: 35px;
+    height: 24px;
+    cursor: pointer;
+
+    span {
+      display: block;
+      height: 6px;
+      width: 100%;
+      background: rgb(255, 255, 255);
+      border-radius: 9px;
+    }
+
+    span:nth-child(2) {
+      margin-top: 3px;
+    }
+
+    span:nth-child(3) {
+      margin-top: 3px;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    display: none;
+    width: 35px;
+    height: 24px;
+    cursor: pointer;
+
+    span {
+      display: block;
+      height: 6px;
+      width: 100%;
+      background: rgb(255, 255, 255);
+      border-radius: 9px;
+    }
+
+    span:nth-child(2) {
+      margin-top: 3px;
+    }
+
+    span:nth-child(3) {
+      margin-top: 3px;
+    }
+  }
+}
+
+.HEADER.menu_state_open .menu__icon {
+  @media screen and (max-width: 991px) {
+    span:nth-child(1) {
+      transform: rotate(45deg);
+      transform-origin: 19% 100%;
+    }
+
+    span:nth-child(2) {
+      transform: rotate(-45deg);
+      transform-origin: 47% 50%;
+    }
+
+    span:nth-child(3) {
+      display: none;
+    }
+  }
+}
+
+.HEADER.menu_state_open .Home_About_Service {
+  @media screen and (max-width: 991px) {
+    display: block;
+  }
+}
+
+.follow_us {
+  display: flex;
+
+  @media screen and (max-width: 991px) {
+    justify-content: flex-end;
+  }
+}
+
+.fbIcon {
+  background-image: url("./images/sprite.png");
+  background-position: -5px -321px;
+  width: 8px;
+  height: 12px;
+
+  @media screen and (max-width: 767px) {
+    margin: 0.5rem 0 0 0.5rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin: 0.7rem 0 0 0.7rem;
+  }
+}
+
+.fbBg {
+  border-radius: 50%;
+  width: 2.2rem;
+  height: 2.7rem;
+  margin-right: 0.55rem;
+}
+
+.fbBg:hover {
+
+  border: 1px solid #6b608b;
+}
+
+.twIcon {
+  background-image: url("./images/sprite.png");
+  background-position: -5px -258px;
+  width: 10px;
+  height: 10px;
+
+  @media screen and (max-width: 767px) {
+    margin: 0.7rem 0 0 0.5rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin: 0.9rem 0 0 0.7rem;
+  }
+}
+
+.twBg {
+  border-radius: 50%;
+  width: 2.3rem;
+  height: 2.7rem;
+  margin-right: 0.55rem;
+}
+
+.twBg:hover {
+  border: 1px solid #6b608b;
+}
+
+.gIcon {
+  background-image: url("./images/sprite.png");
+  background-position: -5px -223px;
+  width: 13px;
+  height: 10px;
+
+  @media screen and (max-width: 767px) {
+    margin: 0.7rem 0 0 0.3rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin: 0.9rem 0 0 0.5rem;
+  }
+}
+
+.gBg {
+  border-radius: 50%;
+  width: 2.2rem;
+  height: 2.7rem;
+}
+
+.gBg:hover {
+  border: 1px solid #6b608b;
+}

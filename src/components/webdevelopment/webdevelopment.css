@@ -1,0 +1,139 @@
+section:nth-child(4) {}
+
+.web {
+  display: flex;
+
+  @media screen and (max-width: 450px) {
+    width: 300vw;
+    margin-left: 0;
+  }
+
+  @media screen and (min-width: 451px) and (max-width: 767px) {
+    width: 150vw;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 100vw;
+  }
+
+  article {
+    background-color: #3d3d3d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 14.3rem 0 13.7rem 0;
+
+    @media screen and (max-width: 450px) {
+      width: 100vw;
+    }
+
+    @media screen and (min-width: 451px) and (max-width: 767px) {
+      width: 50vw;
+    }
+
+    @media screen and (min-width: 768px) {
+      width: calc(100/3)vw;
+    }
+  }
+
+  article:nth-child(1) {
+    @media screen and (max-width: 767px) {}
+  }
+
+  article:nth-child(2) {
+    background-color: rgb(72, 125, 135);
+  }
+
+  article:nth-child(3) {
+    @media screen and (max-width: 450px) {}
+
+    @media screen and (min-width: 451px)and (max-width: 767px) {}
+  }
+}
+
+.web.move1 {
+  @media screen and (max-width: 450px) {
+    margin-left: -100vw;
+  }
+
+  @media screen and (min-width: 451px) and (max-width: 767px) {
+    margin-left: 0;
+  }
+}
+
+.web.move2 {
+  @media screen and (max-width: 450px) {
+    margin-left: -200vw;
+  }
+
+  @media screen and (min-width: 451px) and (max-width: 767px) {
+    margin-left: -50vw;
+  }
+}
+
+
+.Web_DEVELOPMENT {
+  font-size: 2.4rem;
+  font-family: "Sansation";
+  color: rgb(247, 247, 247);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.6rem;
+  margin-top: 5rem;
+}
+
+.We_provide_the_best_world_class_web__developmen {
+  font-size: 1.4rem/1.8rem;
+  font-family: "Sansation";
+  color: rgb(247, 247, 247);
+  margin-top: 1.3rem;
+  padding: 0 3rem;
+  width: 85%;
+}
+
+.MORE_DETAILS {
+  font-size: 1.2rem;
+  font-family: "Sansation";
+  color: rgb(247, 247, 247);
+  line-height: 2.9rem;
+  text-align: center;
+  border-radius: 0.2rem;
+  background-color: rgb(147, 147, 147);
+  width: 14.1rem;
+  height: 2.9rem;
+  margin: 2.8rem auto 0;
+  display: block;
+  text-decoration: none;
+}
+
+.webArrows {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -32px;
+  padding-right: 18px;
+}
+
+.Rectangle_13 {
+  background-color: rgb(89, 157, 170);
+  width: 32px;
+  height: 32px;
+  margin-left: 1px;
+  cursor: pointer;
+}
+
+.left_arrow {
+  background-image: url("./images/sprite.png");
+  background-position: -5px -85px;
+  width: 17px;
+  height: 25px;
+  margin: 4px 0 0 10px;
+}
+
+.right_arrow {
+  background-image: url("./images/sprite.png");
+  background-position: -5px -115px;
+  width: 17px;
+  height: 25px;
+  margin: 4px 0 0 9px;
+}

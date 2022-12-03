@@ -1,0 +1,146 @@
+section:nth-child(9) {
+  background-color: rgb(72, 125, 135);
+  width: 100vw;
+  padding: 4.7rem 0 4.7rem 0;
+
+  @media screen and (max-width: 450px) {
+    font-size: 100%;
+    padding-left: 2rem;
+  }
+
+  @media screen and (min-width: 451px) and (max-width: 991px) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 110%;
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    font-size: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 120%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  div {
+    @media screen and (max-width: 450px) {
+      width: 85%;
+    }
+
+    @media screen and (min-width: 451px) {
+      width: 31%;
+    }
+  }
+
+  form {
+    display: flex;
+    margin-top: 15px;
+
+    @media screen and (max-width: 450px) {
+      width: 80%;
+    }
+
+    @media screen and (min-width: 451px) {
+      width: 50.5%;
+    }
+  }
+}
+
+.Any_Queries___Get_a_quote {
+  font-size: 2.2em/2em;
+  font-family: "Sansation";
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+
+.If_you_have_any_questions_or_queries_regarding_ {
+  font-size: 1em/1.739em;
+  font-family: "Sansation";
+  color: rgba(255, 255, 255, 0.702);
+  text-align: left;
+}
+
+.Your_name {
+  font-size: 1.1em;
+  font-family: "Sansation";
+  color: rgba(255, 255, 255, 0.702);
+  background-color: rgb(72, 125, 135);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 0.2rem 0 0 0.2rem;
+  width: 38%;
+
+  @media screen and (max-width: 450px) {
+    padding-left: 0.7rem;
+    height: 2.5rem;
+  }
+
+  @media screen and (min-width: 451px) and (max-width: 767px) {
+    padding-left: 0.7rem;
+    height: 4.5rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-left: 2.2rem;
+    height: 4.5rem;
+  }
+}
+
+.Your_number {
+  font-size: 1.1em;
+  font-family: "Sansation";
+  color: rgba(255, 255, 255, 0.702);
+  background-color: rgb(72, 125, 135);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-left-color: rgb(72, 125, 135);
+  width: 38%;
+  height: 4.5rem;
+
+  @media screen and (max-width: 450px) {
+    padding-left: 0.7rem;
+    height: 2.5rem;
+  }
+
+  @media screen and (min-width: 451px) and (max-width: 767px) {
+    padding-left: 0.7rem;
+    height: 4.5rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-left: 2.2rem;
+    height: 4.5rem;
+  }
+}
+
+.Get_a_call {
+  font-size: 1.3em;
+  font-family: "MyriadPro";
+  color: rgb(72, 125, 135);
+  background-color: rgb(255, 255, 255);
+  border-radius: 0 0.2rem 0.2rem 0;
+  border: 1px solid rgb(255, 255, 255);
+  width: 24%;
+  cursor: pointer;
+  @media screen and (max-width: 450px) {
+    height: 2.65rem;
+  }
+
+  @media screen and (min-width: 451px) and (max-width: 767px) {
+    height: 4.65rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    height: 4.65rem;
+  }
+}
